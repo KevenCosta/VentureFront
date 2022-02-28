@@ -1,5 +1,5 @@
 import './App.css';
-
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,7 +18,10 @@ function App() {
           <h2 id='content-secondary'>transforma</h2>
           <p>Alunos de todo o mundo estão iniciando novas carreiras e avançando em suas áreas.</p>
           <div>
-            <button className='button-training'>Iniciar treinamento</button>
+            
+            
+              <button className='button-training'>Iniciar treinamento</button>
+          
           </div>
         </div>
         <div className='content-img'>
